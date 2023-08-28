@@ -22,13 +22,13 @@
 .menu-header {
     padding: 8px 16px;
     transition: color 0.3s;
+    border-radius: 10px;
 }
 
 .menu-header:hover {
 
-    border-bottom: 1px solid #F49301;
+    border: 1px solid #F49301;
     cursor: pointer;
     color: #F49301;
-    
 
 }

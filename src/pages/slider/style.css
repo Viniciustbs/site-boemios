@@ -1,0 +1,20 @@
+.slider-container{
+
+    background-color: aqua;
+    
+
+}
+
+.container-img-sld {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+  }
+
+.container-img-sld img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
