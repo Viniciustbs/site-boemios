@@ -7,7 +7,7 @@ export const Slider = () => {
 
     
       <div className="container-img-sld">
-        <img src="https://img.freepik.com/vetores-gratis/modelo-realista-de-carnaval-brasileiro_52683-54251.jpg?w=2000" />
+       
       </div>
 
 
