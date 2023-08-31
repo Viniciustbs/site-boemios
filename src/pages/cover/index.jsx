@@ -6,7 +6,6 @@ export const Cover = () => {
   return (
     <div className="cover-container">
       <div className="img-cover">
-
       </div>
       
       <div className="redes-sociais">
