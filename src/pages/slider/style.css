@@ -8,6 +8,18 @@
     font-family: "Poppins" , sans-serif;
     text-decoration: none;
     list-style: none;
-    overflow-x: hidden;
+    overflow: auto;
+
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../img/bkg-slider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; /* Usando altura de viewport para corresponder à altura da imagem */
 }
 
