@@ -1,28 +1,23 @@
-import React from 'react'
-import "./style.css"
-
-
+import React from 'react';
+import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa'; // Importe os ícones que deseja usar
+import "./style.css";
 
 export const Cover = () => {
   return (
     <div className="cover-container">
+      <div className="img-cover">
 
-      <div className="img-carnaval">
-      <img id='img-ca24' src="../../img/carnaval2024.png" alt="" />
       </div>
-
+      
       <div className="redes-sociais">
-
-        <div href="" target="_blank"><i class="fa-brands fa-facebook"></i></div>
-        <div href="" target="_blank"><i class="fa-brands fa-instagram"></i></div>
-        <div href="" target="_blank"><i class="fa-brands fa-linkedin"></i></div>
-        <div href="" target="_blank"><i class="fa-brands fa-whatsapp"></i></div>
-
+        <a href="#" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+        <a href="#" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+        <a href="#" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
       </div>
-
     </div>
-  )
-}
+  );
+};
+
 
 
 //criação rafc
