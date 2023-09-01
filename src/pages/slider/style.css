@@ -85,10 +85,7 @@
     background: #FFF;
 }
 
-.auto-btn.active {
-    background-color: #fff;
-}
-  
+
 
 #radio1:checked ~ .first{
     margin-left: 0%;

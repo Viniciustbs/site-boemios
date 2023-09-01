@@ -6,7 +6,7 @@ export const Cover = () => {
   return (
     <div className="cover-container">
       <div className="img-cover">
-        <img src="../img/logo2023.png" alt="logo" />
+        
       </div>
       
       <div className="redes-sociais">
