@@ -36,13 +36,12 @@
     position:absolute;
     top: 28vw; 
     display: flex;
+    z-index: 1;
     
   
 }
 
-.img-cover img{
-    box-shadow: 60px -16px teal;
-}
+
 
 .redes-sociais{
     display: flex;
