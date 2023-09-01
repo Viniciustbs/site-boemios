@@ -55,6 +55,7 @@ export function Slider() {
           <input type="radio" name="radio-btn" id="radio3"/>
           <input type="radio" name="radio-btn" id="radio4"/>
 
+
           <div className="slide first">
               <img className="img-desktop" src="../../img/carrossel/imagem1.jpg" alt="Imagem 1" />
               <img className="img-mobile" src="" alt="Imagem 1" />
@@ -75,11 +76,13 @@ export function Slider() {
               <img className="img-mobile" src="" alt="Imagem 4"/>
           </div>
 
+
           <div className="navigation-auto">
               <div className="auto-btn1"></div>
               <div className="auto-btn2"></div>
               <div className="auto-btn3"></div>
               <div className="auto-btn4"></div>
+
           </div>
 
       </div>
@@ -89,6 +92,7 @@ export function Slider() {
           <label htmlFor="radio2" className="manual-btn"></label>
           <label htmlFor="radio3" className="manual-btn"></label>
           <label htmlFor="radio4" className="manual-btn"></label>
+
       </div>
 
   </section>
