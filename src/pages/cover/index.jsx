@@ -5,8 +5,8 @@ import "./style.css";
 export const Cover = () => {
   return (
     <div className="cover-container">
-      <div className="img-cover">
-        
+      <div className="img-cover-nome">
+        <img src="../../img/logo2023.png" alt="OsBoemios.com" />
       </div>
       
       <div className="redes-sociais">

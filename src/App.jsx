@@ -13,7 +13,7 @@ function App() {
     <Header/>
     <Cover/>
     <Slider/>
-    <Cover/>
+
   
     
 
