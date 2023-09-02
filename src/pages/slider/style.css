@@ -29,7 +29,7 @@
 }
 
 .slides {
-    width: 400%;
+    width: 600%;
     height: 100%;
     display: flex;
 }
@@ -80,7 +80,9 @@
 #radio1:checked ~ .navigation-auto .auto-btn1, 
 #radio2:checked ~ .navigation-auto .auto-btn2, 
 #radio3:checked ~ .navigation-auto .auto-btn3,
-#radio4:checked ~ .navigation-auto .auto-btn4 {
+#radio4:checked ~ .navigation-auto .auto-btn4, 
+#radio5:checked ~ .navigation-auto .auto-btn5, 
+#radio6:checked ~ .navigation-auto .auto-btn6 {
     background: #FFF;
 }
 
@@ -100,6 +102,14 @@
 
 #radio4:checked ~ .first{
     margin-left: -75%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -100%;
+}
+
+#radio6:checked ~ .first{
+    margin-left: -125%;
 }
 
 @media screen and (max-width: 900px) {
