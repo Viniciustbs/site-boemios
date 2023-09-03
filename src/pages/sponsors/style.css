@@ -16,10 +16,11 @@
 
     width: 100vw;
     height: 40vh;
-    background-color: #BDFE00;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .text-sponsors{
@@ -39,4 +40,10 @@
 .text-sponsors p{
     font-size: clamp(8px, 1vw, 16px);
     color: black;
+}
+
+.img-sponsors-handshake{
+    position: absolute;
+    width: 25%;
+    left: 20%;
 }

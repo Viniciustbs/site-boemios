@@ -13,7 +13,7 @@ export const Sponsors = () => {
            tenha agora mesmo sua marca na vitrine!</p>
       </div>
 
-    
+    <img className='img-sponsors-handshake' src="../img/handshake.png" />
 
 
 
