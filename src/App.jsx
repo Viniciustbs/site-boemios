@@ -3,6 +3,7 @@ import { Cover } from "./pages/cover"
 import { Header } from "./components/header"
 import { Slider } from "./pages/slider/index"
 import { About } from "./pages/about/index"
+import { Sponsors } from "./pages/sponsors/index"
 
 
 
@@ -15,9 +16,8 @@ function App() {
     <Cover/>
     <Slider/>
     <About/>
-
+    <Sponsors/>
   
-    
 
     </>
   )
