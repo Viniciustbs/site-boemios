@@ -4,7 +4,7 @@ import { Header } from "./components/header"
 import { Slider } from "./pages/slider/index"
 import { About } from "./pages/about/index"
 import { Sponsors } from "./pages/sponsors/index"
-
+import { Contact } from "./pages/contact/index"
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
     <Slider/>
     <About/>
     <Sponsors/>
+    <Contact/>
   
 
     </>

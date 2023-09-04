@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
 
 *{
     margin: 0;
@@ -9,4 +9,32 @@
     text-decoration: none;
     list-style: none;
     overflow-x: hidden;
+}
+
+.contact-container{
+    width: 100vw;
+    height: 80vh;
+    background-color: aqua;
+
+    
+}
+
+.contact-text-msg{
+    text-align: left;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: clamp(16px, 3vw, 32px);
+}
+
+.contact-text-msg p{
+    font-size: clamp(8px, 1vw, 16px);
+    color: darkgray;
+}
+
+.contact-text-msg h1{
+    
+    font-size: clamp(12px, 3vw, 24px);
+    font-family: 'Dancing Script' , sans-serif;
+    margin-bottom: 5%;
 }

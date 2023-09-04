@@ -5,7 +5,17 @@ export const Contact = () => {
   return (
     <div className="contact-container">
 
-    
+      <div className="contact-text-msg">
+        <h1>
+          Entre em contato conosco
+        </h1>
+        <p>
+          Para qualquer informação adicional, entre em
+          contato em um dos nossos canais de atendimento!
+        </p>
+      </div>
+
+      
 
 
 
