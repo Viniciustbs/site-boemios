@@ -1,12 +1,13 @@
-import React from 'react'
 import "./style.css"
+import menabout from "../../assets/img/menabout.png"
+import womanabout from "../../assets/img/womenabout.png"
 
 export const About = () => {
   return (
     <div className="about-container">
 
-      <img className='man-about' src="../img/menabout.png"/>
-      <img  className='woman-about' src="../img/womenabout.png"/>
+      <img className='man-about' src={menabout} />
+      <img  className='woman-about' src={womanabout}/>
 
       <div className="about-text">
 

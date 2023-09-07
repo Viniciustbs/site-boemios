@@ -2,7 +2,7 @@
 
 .header-container {
 
-    background: linear-gradient(rgba(255, 0, 242, 0.432), rgba(255, 33, 207, 0.555)), url("../../../img/bkg-header.jpg");
+    background: linear-gradient(rgba(255, 0, 242, 0.432), rgba(255, 33, 207, 0.555)), url("../../assets/img/bkg-header.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

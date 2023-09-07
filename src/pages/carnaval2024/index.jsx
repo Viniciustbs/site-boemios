@@ -1,12 +1,12 @@
-import React from 'react';
 import "./style.css";
+import carnaval2024 from "../../assets/img/carnaval2024.png"
 
 export const Carnaval2024 = () => {
   return (
     <div className="carnaval-container">
       <div className="img-carnaval">
         <div className="img-carnaval">
-          <img id='img-ca24' src="../../img/carnaval2024.png" alt="" />
+          <img id='img-ca24' src={carnaval2024}/>
         </div>
       </div>
     </div>

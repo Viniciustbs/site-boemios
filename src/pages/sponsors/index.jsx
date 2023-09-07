@@ -1,5 +1,5 @@
-import React from 'react'
 import "./style.css"
+import handshake from "../../assets/img/handshake.png"
 
 export const Sponsors = () => {
   return (
@@ -13,7 +13,7 @@ export const Sponsors = () => {
            tenha agora mesmo sua marca na vitrine!</p>
       </div>
 
-    <img className='img-sponsors-handshake' src="../img/handshake.png" />
+    <img className='img-sponsors-handshake' src={handshake} />
 
 
 

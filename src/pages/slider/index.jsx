@@ -1,6 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import "./style.css"
 
+import imagem1 from "../../assets/img/carrossel/imagem1.jpg"
+import imagem2 from "../../assets/img/carrossel/imagem2.jpg"
+import imagem3 from "../../assets/img/carrossel/imagem3.jpg"
+import imagem4 from "../../assets/img/carrossel/imagem4.jpg"
+import imagem5 from "../../assets/img/carrossel/imagem5.jpg"
+import imagem6 from "../../assets/img/carrossel/imagem6.jpg"
+import imagemmobile1 from "../../assets/img/carrossel/imagem1.jpg"
+import imagemmobile2 from "../../assets/img/carrossel/imagem2.jpg"
+import imagemmobile3 from "../../assets/img/carrossel/imagem3.jpg"
+import imagemmobile4 from "../../assets/img/carrossel/imagem4.jpg"
+import imagemmobile5 from "../../assets/img/carrossel/imagem5.jpg"
+import imagemmobile6 from "../../assets/img/carrossel/imagem6.jpg"
+
 export function Slider() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const radioBtns = document.querySelectorAll('[name="radio-btn"]');
@@ -59,31 +72,31 @@ export function Slider() {
 
 
                 <div className="slide first">
-                    <img className="img-desktop" src="../../img/carrossel/imagem1.jpg" alt="Imagem 1" />
-                    <img className="img-mobile" src="" alt="Imagem 1" />
+                    <img className="img-desktop" src={imagem1} alt="Imagem 1" />
+                    <img className="img-mobile" src={imagemmobile1} alt="Imagem 1" />
                 </div>
 
                 <div className="slide">
-                    <img className="img-desktop" src="../../img/carrossel/imagem2.jpg" alt="Imagem 2" />
-                    <img className="img-mobile" src="" alt="Imagem 2"/>
+                    <img className="img-desktop" src={imagem2} alt="Imagem 2" />
+                    <img className="img-mobile" src={imagemmobile2} alt="Imagem 2"/>
                 </div>
 
                 <div className="slide">
-                    <img className="img-desktop" src="../../img/carrossel/imagem3.jpg" alt="Imagem 3"/>
-                    <img className="img-mobile" src="" alt="Imagem 3"/>
+                    <img className="img-desktop" src={imagem3} alt="Imagem 3"/>
+                    <img className="img-mobile" src={imagemmobile3} alt="Imagem 3"/>
                 </div>
 
                 <div className="slide">
-                    <img className="img-desktop" src="../../img/carrossel/imagem4.jpg" alt="Imagem 4"/>
-                    <img className="img-mobile" src="" alt="Imagem 4"/>
+                    <img className="img-desktop" src={imagem4} alt="Imagem 4"/>
+                    <img className="img-mobile" src={imagemmobile4} alt="Imagem 4"/>
                 </div>
                 <div className="slide">
-                    <img className="img-desktop" src="../../img/carrossel/imagem5.jpg" alt="Imagem 5"/>
-                    <img className="img-mobile" src="" alt="Imagem 5"/>
+                    <img className="img-desktop" src={imagem5} alt="Imagem 5"/>
+                    <img className="img-mobile" src={imagemmobile5} alt="Imagem 5"/>
                 </div>
                 <div className="slide">
-                    <img className="img-desktop" src="../../img/carrossel/imagem6.jpg" alt="Imagem 6"/>
-                    <img className="img-mobile" src="" alt="Imagem 6"/>
+                    <img className="img-desktop" src={imagem6} alt="Imagem 6"/>
+                    <img className="img-mobile" src={imagemmobile6} alt="Imagem 6"/>
                 </div>
 
 
