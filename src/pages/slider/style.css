@@ -8,21 +8,20 @@
 
 
 .slider-container {
-    background-image: url(../../assets/img/carrossel/background.jpg);
+    background-image: url(../../assets/img/carrossel/imagem3.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFF;
     background-size:cover;
     width: 100vw;
     max-width: 100vw;
-    height: 50vw;
+    height: 47vw;
     
 }
 
 .slider {
-    width: 95vw;
-    height: 50vw;
+    width: 75vw;
+    height: 45vw;
     padding: 0 !important;
     overflow: hidden;
     position: relative;
@@ -57,7 +56,7 @@
 
 .manual-navigation, .navigation-auto {
     position: absolute;
-    width: 95vw;
+    width: 75vw;
     display: flex;
     justify-content: center;
     bottom: 8%;
