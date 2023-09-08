@@ -6,7 +6,7 @@ import whatsapp from "../../assets/img/icons8-whatsapp-50.png"
 
 export const Contact = () => {
   return (
-    <div className="contact-container">
+    <div id="contact" className="contact-container">
 
       <div className="contact-text-msg">
         <h1>

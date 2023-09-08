@@ -3,7 +3,7 @@ import handshake from "../../assets/img/handshake.png"
 
 export const Sponsors = () => {
   return (
-    <div className="sponsors-container">
+    <div id="sponsors" className="sponsors-container">
       <div className="text-sponsors">
 
         <h1>Seja um apoiador</h1>
