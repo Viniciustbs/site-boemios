@@ -5,7 +5,10 @@
     overflow-y: auto;
 }
 
+
+
 .slider-container {
+    background-image: url(../../assets/img/carrossel/background.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,15 +16,13 @@
     background-size:cover;
     width: 100vw;
     max-width: 100vw;
-    height: 60vw;
-
-
+    height: 50vw;
     
 }
 
 .slider {
-    width: 100vw;
-    height: 60vw;
+    width: 95vw;
+    height: 50vw;
     padding: 0 !important;
     overflow: hidden;
     position: relative;
@@ -56,7 +57,7 @@
 
 .manual-navigation, .navigation-auto {
     position: absolute;
-    width: 100vw;
+    width: 95vw;
     display: flex;
     justify-content: center;
     bottom: 8%;
