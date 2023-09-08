@@ -10,9 +10,9 @@ export const Cover = () => {
       </div>
       
       <div className="redes-sociais">
-        <a href="#" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-        <a href="#" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-        <a href="#" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
+        <a href="https://www.facebook.com/Boemios" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+        <a href="https://www.instagram.com/boemioscassino/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+        <a href="https://wa.me/5553999970698" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
       </div>
     </div>
   );

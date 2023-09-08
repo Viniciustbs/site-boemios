@@ -16,7 +16,7 @@
 
     width: 100vw;
     height: 40vh;
-    background-color: white;
+    background-color: rgba(0, 204, 255, 0.342);
     display: flex;
     justify-content: center;
     align-items: center;

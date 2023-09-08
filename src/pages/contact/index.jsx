@@ -1,4 +1,8 @@
 import "./style.css"
+import instagram from "../../assets/img/icons8-instagram-50.png"
+import telefone from "../../assets/img/icons8-call-50.png"
+import whatsapp from "../../assets/img/icons8-whatsapp-50.png"
+
 
 export const Contact = () => {
   return (
@@ -13,6 +17,22 @@ export const Contact = () => {
           contato em um dos nossos canais de atendimento!
         </p>
       </div>
+
+      <div className="contatos">
+      <div className="whats-contato contato-style">
+          <img src={whatsapp} />
+          <p>+55(53) 99997-0698</p>
+        </div>
+        <div className="telefone-contato contato-style">
+          <img src={telefone} />
+          <p>+55(53) 99997-0698</p>
+        </div>
+        <div className="instagram-contato contato-style">
+          <img src={instagram} />
+          <p>@boemioscassino</p>
+        </div>
+      </div>
+
 
       
 

@@ -19,6 +19,7 @@
     align-items: center;
     position: relative;
     overflow: hidden;
+    background-color:rgba(238, 255, 0, 0.527);
 }
 
 .about-text{
