@@ -15,6 +15,8 @@ import imagemmobile5 from "../../assets/img/carrossel/imagem5.jpg"
 import imagemmobile6 from "../../assets/img/carrossel/imagem6.jpg"
 
 export function Slider() {
+
+  //os scripts abaixo determinam a passagem de imagens do slider e a posição do botão de passagem.
   const [currentSlide, setCurrentSlide] = useState(0);
   const radioBtns = document.querySelectorAll('[name="radio-btn"]');
   const autoBtns = document.querySelectorAll('.auto-btn');

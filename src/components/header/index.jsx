@@ -2,6 +2,8 @@ import "./style.css"
 import React from 'react';
 
 export const Header = () => {
+  
+  //O script abaixo determina a rolagem entre as telas
   const scrollToSection = (sectionId) => {
     const targetSection = document.getElementById(sectionId);
 
