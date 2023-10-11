@@ -15,8 +15,8 @@
 .sponsors-container{
 
     width: 100vw;
-    height: 70vh;
-    background-color: rgb(157, 238, 234);
+    height: Clamp(40vh, 50vh, 70vh);
+    background-color: rgb(243, 252, 252);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
 .text-sponsors{
     width: 25%;
     text-align: center;
-    margin-left: 50%;
+    margin-left: 40%;
 
 }
 
@@ -46,4 +46,29 @@
     position: absolute;
     width: 25%;
     left: 20%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+.text-sponsors{
+    width: 35%;
+    text-align: center;
+    margin-left: 35%;
+
+}
+
+.sponsors-container{
+
+    height: Clamp(20vh, 25vh, 35vh);
+}
+
+.img-sponsors-handshake{
+    position: absolute;
+    width: 25%;
+    left: 15%;
+}
+
+
 }
