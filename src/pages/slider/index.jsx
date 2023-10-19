@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "./style.css"
-
+import bkg2 from "../../assets/img/bkg-2.jpg"
 import imagem1 from "../../assets/img/carrossel/imagem1.jpg"
 import imagem2 from "../../assets/img/carrossel/imagem2.jpg"
 import imagem3 from "../../assets/img/carrossel/imagem3.jpg"
@@ -63,6 +63,9 @@ export function Slider() {
 
   return (
       <div className="slider-container">
+
+        <img className='background-slider' src={bkg2}/>
+
         <section className="slider">
             <div className="slides">
                 <input type="radio" name="radio-btn" id="radio1"/>
